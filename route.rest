@@ -151,3 +151,10 @@ Content-Type: application/json
     "receiverId": "653ee8ed19e72a1758ff2957"
 }
 // get 200, with message "Invite sent and match created" but still no user_1, user_2 updated in match obj
+
+
+###
+//get a specific match by id
+//test Jason with Helen
+GET http://localhost:3001/api/matches/get_one_match/655960c8d4972d478bb040eb
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjUzNWNmOGE0ODdhMTdjOGViM2EyYWM2In0sImlhdCI6MTY5ODAyNTM1NX0.pdDNIhx2rk4pJOulgaaN2Xvr32Q7BE1OxvP_mLtUh4I
