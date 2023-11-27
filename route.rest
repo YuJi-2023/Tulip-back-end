@@ -155,6 +155,5 @@ Content-Type: application/json
 
 ###
 //get a specific match by id
-//test Jason with Helen
 GET http://localhost:3001/api/matches/get_conversation/655960c8d4972d478bb040eb/65595ed1d4972d478bb040d2
 x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjUzNWNmOGE0ODdhMTdjOGViM2EyYWM2In0sImlhdCI6MTY5ODAyNTM1NX0.pdDNIhx2rk4pJOulgaaN2Xvr32Q7BE1OxvP_mLtUh4I
